@@ -1,0 +1,8 @@
+/* Style applied by content.js when videos are disabled */
+video.video-disabled-by-extension {
+    opacity: 0.5;
+    /* Make them look faded */
+    /* pointer-events: none; is handled by JS for better control */
+    /* You could add other styles, like a border or overlay */
+    /* border: 2px dashed red; */
+}

@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "Simple Video Disabler",
+    "version": "1.0",
+    "description": "Disables videos on specific sites via a toggle button.",
+    "permissions": [
+        "storage",
+        "scripting"
+    ],
+    "host_permissions": [
+        "*://*.spotify.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.spotify.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ]
+        }
+    ],
+    "icons": {
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}
