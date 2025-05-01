@@ -1,8 +1,9 @@
-# video-disabler chrome extension
+# Spotify video-disabler extension
 
-Just a simple chrome extension to disable video tags on spotify web
+Just a simple chrome extension to disable video tags on spotify web.
 
-Ok hear me out: in new versions of spotify (the web version at least), spotify will automatically play a video on your current song's cover for you.
+## Why?
+Ok hear me out: in new versions of spotify (the web version at least), spotify will automatically play a video on the current song's cover for you.
 
 My problem?
 If I wanted to play video...I would have just opened youtube instead of spotify...this really started to annoy me, so I decided to write an extension to turn it off.
@@ -11,7 +12,7 @@ Anyway, here is the extension which works for me, if you also have the same prob
 
 ## Installation
 
-I haven't thought of uploading it to chrome web store yet...so:
+I haven't thought of uploading it to chrome web store yet (it needs fee)...so:
   1. clone the repository: `git clone https://github.com/ALiwoto/video-disabler-extension.git`
   2. Open Chrome and go to chrome://extensions.
   3. Enable "Developer mode" using the toggle switch in the top-right corner.

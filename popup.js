@@ -5,7 +5,7 @@ const storageKey = 'videoDisablerEnabled'; // Key to store the state
 // Function to update the button and status text
 function updateUI(isEnabled) {
     if (isEnabled) {
-        statusDiv.textContent = 'All videos will be paused ✅';
+        statusDiv.textContent = 'All videos will be paused.';
         toggleButton.textContent = 'Disable Extension';
     } else {
         statusDiv.textContent = 'Videos won\'t be touched :o';
@@ -35,7 +35,7 @@ toggleButton.addEventListener('click', () => {
 
             // Optional: Send a message to the active tab's content script
             // to update immediately without waiting for a page reload or storage change event.
-            // This makes the change feel more instantaneous if the user is already on mysite.com
+            // This makes the change feel more instantaneous if the user is already on spotify
             chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
                 if (tabs[0]?.id) { // Check if we have a valid tab ID
                     chrome.tabs.sendMessage(tabs[0].id, {

@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Simple Video Disabler",
+    "name": "Spotify Video Disabler",
     "version": "1.0",
-    "description": "Disables videos on specific sites via a toggle button.",
+    "description": "Disables videos on Spotify-web via a toggle button.",
     "permissions": [
         "storage",
         "scripting"
