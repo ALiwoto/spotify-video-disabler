@@ -1,4 +1,4 @@
-# Spotify video-disabler extension
+# Spotify video disabler extension
 
 Just a simple chrome extension to disable video tags on spotify web.
 
@@ -13,7 +13,7 @@ Anyway, here is the extension which works for me, if you also have the same prob
 ## Installation
 
 I haven't thought of uploading it to chrome web store yet (it needs fee)...so:
-  1. clone the repository: `git clone https://github.com/ALiwoto/video-disabler-extension.git`
+  1. clone the repository: `git clone https://github.com/ALiwoto/spotify-video-disabler.git`
   2. Open Chrome and go to chrome://extensions.
   3. Enable "Developer mode" using the toggle switch in the top-right corner.
   4. Click the "Load unpacked" button that appears.
